@@ -2,6 +2,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	align-items: stretch;
 	margin: auto;
 	padding: 0.25vw;
 	background-color: #DDD;
@@ -10,9 +11,9 @@
 }
 
 .cell {
-	width: 10%;
 	margin: 0.05vw;
 	border-width: 1px;
 	border-style: solid;
 	border-color: #BBB;
+	border-radius: 2px;
 }
